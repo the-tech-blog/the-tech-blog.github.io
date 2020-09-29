@@ -4,7 +4,7 @@ author: Boring Baba
 copyright: >-
   Copyright © 2008–2020, The Tech Blog; all rights
   reserved.
-
+publishDir: docs
 paginate: 10
 languageCode: en
 DefaultContentLanguage: en
