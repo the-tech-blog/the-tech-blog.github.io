@@ -1,4 +1,4 @@
-baseURL: 'http://the-tech-blog.github.io'
+baseURL: 'https://the-tech-blog.github.io'
 title: The Tech Blog
 author: Boring Baba
 copyright: >-
@@ -10,7 +10,7 @@ languageCode: en
 DefaultContentLanguage: en
 enableInlineShortcodes: true
 theme: hugo-PaperMod
-
+canonifyURLs: true
 params:
   description: 'Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod'
   author: Theme PaperMod
