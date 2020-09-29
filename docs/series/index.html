@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>Series - The Tech Blog</title>
+
+<meta name="description"
+    content="Series - The Tech Blog">
+<meta name="author" content="Theme PaperMod">
+<link rel="canonical" href="http://the-tech-blog.github.io/series/" />
+
+<link href="http://the-tech-blog.github.io/css/stylesheet.min.5502e320dd4ff37e3f1dbb3bfe4ed915023db51a0f3031b81eb78489ff99515b.css" integrity="sha256-VQLjIN1P834/Hbs7/k7ZFQI9tRoPMDG4HreEif&#43;ZUVs=" rel="preload stylesheet"
+    as="style">
+
+<link rel="apple-touch-icon" href="http://the-tech-blog.github.io/apple-touch-icon.png">
+<link rel="icon" href="http://the-tech-blog.github.io/favicon.ico">
+<meta name="generator" content="Hugo 0.75.1" />
+<link rel="alternate" type="application/rss+xml" href="http://the-tech-blog.github.io/series/index.xml" title="The Tech Blog" />
+</head>
+
+<body class="list" id="top">
+<script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+</script>
+<header class="header">
+    <nav class="nav">
+        <p class="logo"><a href="http://the-tech-blog.github.io">The Tech Blog</a></p>
+        <ul class="menu" id="menu" onscroll="menu_on_scroll()">
+            <li>
+                <a href="http://the-tech-blog.github.io/archives/">
+                    <span>
+                        Archives
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="http://the-tech-blog.github.io/tags/">
+                    <span>
+                        Tags
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="http://the-tech-blog.github.io/series/">
+                    <span class="active">
+                        Series
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+    <main class="main">
+<header class="page-header">
+    <h1>Series</h1>
+</header>
+
+<ul class="terms-tags">
+    <li>
+        <a href="http://the-tech-blog.github.io/series/papermod/">PaperMod <sup><strong><sup>1</sup></strong></sup> </a>
+    </li>
+    <li>
+        <a href="http://the-tech-blog.github.io/series/themes-guide/">Themes Guide <sup><strong><sup>1</sup></strong></sup> </a>
+    </li>
+</ul>
+
+
+    </main><footer class="footer">
+    <span>&copy; 2020 <a href="http://the-tech-blog.github.io">The Tech Blog</a></span>
+    <span>&middot;</span>
+    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo️️</a>️</span>
+    <span>&middot;</span>
+    <span>Theme️ <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top">
+    <button class="top-link" id="top-link" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+            <path d="M12 6H0l6-6z" /></svg>
+    </button>
+</a>
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute("href")).scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+</script>
+</body>
+
+</html>

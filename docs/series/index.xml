@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on The Tech Blog</title>
+    <link>http://the-tech-blog.github.io/series/</link>
+    <description>Recent content in Series on The Tech Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2020, The Tech Blog; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0530</lastBuildDate><atom:link href="http://the-tech-blog.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PaperMod</title>
+      <link>http://the-tech-blog.github.io/series/papermod/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0530</pubDate>
+      
+      <guid>http://the-tech-blog.github.io/series/papermod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Themes Guide</title>
+      <link>http://the-tech-blog.github.io/series/themes-guide/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://the-tech-blog.github.io/series/themes-guide/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
