@@ -37,3 +37,4 @@ fields:
   label: weight
 pages:
 - content/posts/git-handy-commands.md
+- content/why-this-blog.md
