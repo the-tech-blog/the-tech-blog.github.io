@@ -31,13 +31,9 @@ params:
     Title: "Hi there \U0001F44B"
     Content: Welcome to The Tech Blog
   socialIcons:
-  - name: twitter
-    url: https://www.twitter.com/ashish_batman
   - name: stackoverflow
     url: "#"
   - name: codepen
-    url: "#"
-  - name: linkedin
     url: "#"
   - name: github
     url: https://github.com/adityatelange/hugo-PaperMod
