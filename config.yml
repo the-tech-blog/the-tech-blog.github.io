@@ -32,7 +32,7 @@ params:
     Content: Welcome to The Tech Blog
   socialIcons:
   - name: twitter
-    url: "#"
+    url: https://www.twitter.com/ashish_batman
   - name: stackoverflow
     url: "#"
   - name: codepen
