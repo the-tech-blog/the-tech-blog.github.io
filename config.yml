@@ -44,15 +44,15 @@ markup:
     startLevel: "1"
 menu:
   main:
-  - name: Archives
-    url: "/archives/"
-    weight: "5"
-  - name: Tags
+  - name: Topics
     url: "/tags/"
     weight: "10"
   - name: Series
     url: "/series/"
     weight: "15"
+  - name: Archives
+    url: "/archives/"
+    weight: "5"
 taxonomies:
   category: categories
   tag: tags
