@@ -32,11 +32,11 @@ params:
     Content: Welcome to The Tech Blog
   socialIcons:
   - name: stackoverflow
-    url: "#"
+    url: https://stackoverflow.com/users/7188713/ashish-mishra
   - name: codepen
-    url: "#"
+    url: https://codepen.io/the-tech-blog
   - name: github
-    url: https://github.com/adityatelange/hugo-PaperMod
+    url: https://github.com/the-tech-blog
 markup:
   tableOfContents:
     endLevel: '3'
