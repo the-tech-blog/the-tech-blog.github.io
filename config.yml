@@ -4,7 +4,7 @@ title: The Tech Blog
 author: Boring Baba
 copyright: Copyright © 2008–2020, The Tech Blog; all rights reserved.
 publishDir: docs
-paginate: '10'
+paginate: "10"
 languageCode: en
 DefaultContentLanguage: en
 enableInlineShortcodes: true
@@ -29,7 +29,8 @@ params:
       url: tags
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to The Tech Blog
+    Content: Welcome to The Tech Blog or i say my corner of the internet. My Blog
+      is the main attraction, mostly a place to document things learned.
   socialIcons:
   - name: stackoverflow
     url: https://stackoverflow.com/users/7188713/ashish-mishra
@@ -39,20 +40,20 @@ params:
     url: https://github.com/the-tech-blog
 markup:
   tableOfContents:
-    endLevel: '3'
+    endLevel: "3"
     ordered: false
-    startLevel: '1'
+    startLevel: "1"
 menu:
   main:
   - url: "/series/"
     name: Series
-    weight: 2
+    weight: "2"
   - url: "/tags/"
     name: Tags
-    weight: 1
+    weight: "1"
   - url: "/archives/"
     name: Archives
-    weight: 3
+    weight: "3"
 taxonomies:
   category: categories
   tag: tags
