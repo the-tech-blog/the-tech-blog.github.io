@@ -4,7 +4,7 @@ title: The Tech Blog
 author: Boring Baba
 copyright: Copyright © 2008–2020, The Tech Blog; all rights reserved.
 publishDir: docs
-paginate: "10"
+paginate: '10'
 languageCode: en
 DefaultContentLanguage: en
 enableInlineShortcodes: true
@@ -39,20 +39,20 @@ params:
     url: https://github.com/adityatelange/hugo-PaperMod
 markup:
   tableOfContents:
-    endLevel: "3"
+    endLevel: '3'
     ordered: false
-    startLevel: "1"
+    startLevel: '1'
 menu:
   main:
-  - name: Topics
-    url: "/tags/"
-    weight: "10"
-  - name: Series
-    url: "/series/"
-    weight: "15"
-  - name: Archives
-    url: "/archives/"
-    weight: "5"
+  - url: "/series/"
+    name: Series
+    weight: 2
+  - url: "/tags/"
+    name: Tags
+    weight: 1
+  - url: "/archives/"
+    name: Archives
+    weight: 3
 taxonomies:
   category: categories
   tag: tags
