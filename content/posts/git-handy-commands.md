@@ -26,10 +26,12 @@ Commit and push it to the remote:
 
     git commit -m "Removed a modified file from pull request"
     git push origin pull-request-branch
-    
-#### Scenario 2: Update the commit user name and email in git repo
-    git config user.name boring-baba
-    git config user.email boringbabainfo+fiverr@gmail.com
 
-#### Scenario 3: Git updating the buffer size in git repo
-	git config --global http.postBuffer 1048576000
+#### Scenario 2: Update the commit user name and email in Git repo
+
+    git config user.name user-name
+    git config user.email username-git@gmail.com
+
+#### Scenario 3: Git updating the buffer size in Git repo
+
+    git config --global http.postBuffer 1048576000
