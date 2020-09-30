@@ -6,25 +6,6 @@
     <description>Recent content in Categories on The Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright © 2008–2020, The Tech Blog; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://the-tech-blog.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>syntax</title>
-      <link>https://the-tech-blog.github.io/categories/syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://the-tech-blog.github.io/categories/syntax/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>themes</title>
-      <link>https://the-tech-blog.github.io/categories/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://the-tech-blog.github.io/categories/themes/</guid>
-      <description></description>
-    </item>
-    
+    <copyright>Copyright © 2008–2020, The Tech Blog; all rights reserved.</copyright><atom:link href="https://the-tech-blog.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

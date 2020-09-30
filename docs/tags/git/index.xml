@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on The Tech Blog</title>
-    <link>https://the-tech-blog.github.io/posts/</link>
-    <description>Recent content in Posts on The Tech Blog</description>
+    <title>git on The Tech Blog</title>
+    <link>https://the-tech-blog.github.io/tags/git/</link>
+    <description>Recent content in git on The Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2008–2020, The Tech Blog; all rights reserved.</copyright>
-    <lastBuildDate>Tue, 29 Sep 2020 18:30:00 +0000</lastBuildDate><atom:link href="https://the-tech-blog.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Sep 2020 18:30:00 +0000</lastBuildDate><atom:link href="https://the-tech-blog.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>git-handy-commands</title>
       <link>https://the-tech-blog.github.io/posts/git-handy-commands/</link>

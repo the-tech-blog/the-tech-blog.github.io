@@ -7,88 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2008–2020, The Tech Blog; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 17 Sep 2020 11:30:03 +0530</lastBuildDate><atom:link href="https://the-tech-blog.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Sep 2020 18:30:00 +0000</lastBuildDate><atom:link href="https://the-tech-blog.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Papermod - Installation</title>
-      <link>https://the-tech-blog.github.io/posts/papermod/papermod-installation/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0530</pubDate>
+      <title>git-handy-commands</title>
+      <link>https://the-tech-blog.github.io/posts/git-handy-commands/</link>
+      <pubDate>Tue, 29 Sep 2020 18:30:00 +0000</pubDate>
       
-      <guid>https://the-tech-blog.github.io/posts/papermod/papermod-installation/</guid>
-      <description>Follow this guide to setup hugo and create a new site. Make sure you install latest version of hugo(&amp;gt;=0.57.1).
-After you have created a new site, at Step 3 follow the steps:
-Inside the folder of your Hugo site, run:
- git clone https://github.com/adityatelange/hugo-PaperMod themes/hugo-PaperMod --depth=1  Updating theme :
-cd themes/hugo-PaperMod git pull   or you can use as submodule with
- git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/hugo-PaperMod  Updating theme with submodule :</description>
-    </item>
-    
-    <item>
-      <title>Papermod - Features</title>
-      <link>https://the-tech-blog.github.io/posts/papermod/papermod-features/</link>
-      <pubDate>Wed, 16 Sep 2020 11:30:03 +0530</pubDate>
-      
-      <guid>https://the-tech-blog.github.io/posts/papermod/papermod-features/</guid>
-      <description>Assets (js/css) The following is enabled by default
- minification - makes the assets size smallest as possible. bundling - bundles all the styles in one single asset fingerprint/intergity check.   Default Theme light/dark params: defaultTheme: light or
-params: defaultTheme: dark or
-params: defaultTheme: auto # to switch between dark or light according to browser theme  Archives Layout Add vars below to page-variables
-layout: &amp;#34;archives&amp;#34; ex: here
- Home-Info Mode Use 1st entry as some Information</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://the-tech-blog.github.io/posts/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://the-tech-blog.github.io/posts/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Papermod - Icons</title>
-      <link>https://the-tech-blog.github.io/posts/papermod/papermod-icons/</link>
-      <pubDate>Thu, 17 Sep 2020 11:30:03 +0530</pubDate>
-      
-      <guid>https://the-tech-blog.github.io/posts/papermod/papermod-icons/</guid>
-      <description>Social Icons Usage :
-socialIcons: # optional - name: &amp;quot;&amp;lt;NAME&amp;gt;&amp;quot; url: &amp;quot;&amp;lt;link&amp;gt;&amp;quot; - name: &amp;quot;&amp;lt;NAME&amp;gt;&amp;quot; url: &amp;quot;&amp;lt;link2&amp;gt;&amp;quot;    No. name platform link     1 123rf 123rf.com   2 adobestock stock.adobe.com   3 behance behance.net   4 codepen codepen.io   5 cryptohack cryptohack.org   6 dev dev.to   7 discogs discogs.com   8 dreamstime dreamstime.com   9 dribbble dribbble.</description>
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>https://the-tech-blog.github.io/posts/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://the-tech-blog.github.io/posts/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://the-tech-blog.github.io/posts/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://the-tech-blog.github.io/posts/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://the-tech-blog.github.io/posts/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://the-tech-blog.github.io/posts/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://the-tech-blog.github.io/posts/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://the-tech-blog.github.io/posts/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+      <guid>https://the-tech-blog.github.io/posts/git-handy-commands/</guid>
+      <description>Scenario 1: Remove a Modified File from Git pull request Switch to the branch from which you created the pull request:
+$ git checkout pull-request-branch  Overwrite the modified file(s) with the file in another branch, let&amp;rsquo;s consider it&amp;rsquo;s master:
+git checkout origin/master -- src/main/java/HelloWorld.java  Commit and push it to the remote:
+git commit -m &amp;quot;Removed a modified file from pull request&amp;quot; git push origin pull-request-branch  Scenario 2: Update the commit user name and email in Git repo git config user.</description>
     </item>
     
     <item>
