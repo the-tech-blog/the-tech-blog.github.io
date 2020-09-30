@@ -30,7 +30,7 @@ params:
   homeInfoParams:
     Title: "Hi there \U0001F44B"
     Content: Welcome to The Tech Blog or i say my corner of the internet. My Blog
-      is the main attraction, mostly a place to document things learned.
+      is mostly a place to document things i learned.
   socialIcons:
   - name: stackoverflow
     url: https://stackoverflow.com/users/7188713/ashish-mishra
