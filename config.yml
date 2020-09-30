@@ -16,7 +16,7 @@ params:
   ShowReadingTime: true
   contentTypeName: posts
   defaultTheme: auto
-  ShowShareButtons: true
+  ShowShareButtons: false
   profileMode:
     enabled: false
     title: PaperMod
