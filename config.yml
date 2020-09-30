@@ -29,8 +29,8 @@ params:
       url: tags
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to The Tech Blog or i say my corner of the internet. My Blog
-      is mostly a place to document things i learned.
+    Content: Welcome to The Tech Blog or I say my corner of the internet.
+    ContentSecondLine: My Blog is mostly a place to document things learned.
   socialIcons:
   - name: stackoverflow
     url: https://stackoverflow.com/users/7188713/ashish-mishra
