@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>json on The Tech Blog</title>
+    <link>https://the-tech-blog.github.io/tags/json/</link>
+    <description>Recent content in json on The Tech Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2020, The Tech Blog; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 04 Oct 2020 18:30:00 +0000</lastBuildDate><atom:link href="https://the-tech-blog.github.io/tags/json/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jackson Handy Code</title>
+      <link>https://the-tech-blog.github.io/posts/jackson-handy-code/</link>
+      <pubDate>Sun, 04 Oct 2020 18:30:00 +0000</pubDate>
+      
+      <guid>https://the-tech-blog.github.io/posts/jackson-handy-code/</guid>
+      <description>Section 1: converting JSON to POJO class, using a generalize method By using this method we can pass a JSON Object to the method as a parameter, and the second parameter is the class reference, which needs to be mapped.
+@SneakyThrows public &amp;lt;T&amp;gt; T getObjectFromData(Class&amp;lt;T&amp;gt; objClass, JsonObject jsonObject) { return mapper.readValue(jsonObject.toString(),objClass); } </description>
+    </item>
+    
+  </channel>
+</rss>

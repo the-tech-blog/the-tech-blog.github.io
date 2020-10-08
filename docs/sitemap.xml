@@ -3,8 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://the-tech-blog.github.io/posts/jackson-handy-code/</loc>
+    <lastmod>2020-10-04T18:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://the-tech-blog.github.io/posts/git-handy-commands/</loc>
     <lastmod>2020-09-29T18:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://the-tech-blog.github.io/tags/jackson/</loc>
+    <lastmod>2020-10-04T18:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://the-tech-blog.github.io/tags/json/</loc>
+    <lastmod>2020-10-04T18:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://the-tech-blog.github.io/posts/</loc>
+    <lastmod>2020-10-04T18:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://the-tech-blog.github.io/tags/</loc>
+    <lastmod>2020-10-04T18:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://the-tech-blog.github.io/</loc>
+    <lastmod>2020-10-04T18:30:00+00:00</lastmod>
   </url>
   
   <url>
@@ -23,22 +53,7 @@
   </url>
   
   <url>
-    <loc>https://the-tech-blog.github.io/posts/</loc>
-    <lastmod>2020-09-29T18:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://the-tech-blog.github.io/series/</loc>
-    <lastmod>2020-09-29T18:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://the-tech-blog.github.io/tags/</loc>
-    <lastmod>2020-09-29T18:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://the-tech-blog.github.io/</loc>
     <lastmod>2020-09-29T18:30:00+00:00</lastmod>
   </url>
   
