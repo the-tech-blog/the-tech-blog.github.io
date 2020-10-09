@@ -35,3 +35,13 @@ Commit and push it to the remote:
 #### Scenario 3: Git updating the buffer size in Git repo
 
     git config --global http.postBuffer 1048576000
+
+#### Scenario 4: Stop tracking changes to a file in Sourcetree
+
+I guess, This is the issue which troubled me most in git. So, the issue is i have a file in my code base which i dont want to commit as this is specific to my local. But still sourcetree show this file to me, everytime i go for making a commit. This is really very annoying. to fix this run the below command in the repo folder and sourcetre will understand our feelings. 
+
+	git update-index --assume-unchanged file.filename
+
+For folder use this 
+
+	git rm -r --cached path_to_your_folder/
