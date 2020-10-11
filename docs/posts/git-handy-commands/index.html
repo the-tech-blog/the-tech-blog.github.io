@@ -76,7 +76,8 @@ git commit -m &quot;Removed a modified file from pull request&quot; git push ori
       <blockquote><ul><li>
         <a href="#scenario-1-remove-a-modified-file-from-git-pull-request">Scenario 1: Remove a Modified File from Git pull request</a></li><li>
         <a href="#scenario-2-update-the-commit-user-name-and-email-in-git-repo">Scenario 2: Update the commit user name and email in Git repo</a></li><li>
-        <a href="#scenario-3-git-updating-the-buffer-size-in-git-repo">Scenario 3: Git updating the buffer size in Git repo</a></li></ul>
+        <a href="#scenario-3-git-updating-the-buffer-size-in-git-repo">Scenario 3: Git updating the buffer size in Git repo</a></li><li>
+        <a href="#scenario-4-stop-tracking-changes-to-a-file-in-sourcetree">Scenario 4: Stop tracking changes to a file in Sourcetree</a></li></ul>
       </blockquote>
     </details>
   </div>
@@ -96,7 +97,14 @@ git push origin pull-request-branch
 git config user.email username-git@gmail.com
 </code></pre>
 <h4 id="scenario-3-git-updating-the-buffer-size-in-git-repo">Scenario 3: Git updating the buffer size in Git repo</h4>
-<pre><code>git config --global http.postBuffer 1048576000</code></pre>
+<pre><code>git config --global http.postBuffer 1048576000
+</code></pre>
+<h4 id="scenario-4-stop-tracking-changes-to-a-file-in-sourcetree">Scenario 4: Stop tracking changes to a file in Sourcetree</h4>
+<p>I guess, This is the issue which troubled me most in git. So, the issue is i have a file in my code base which i dont want to commit as this is specific to my local. But still sourcetree show this file to me, everytime i go for making a commit. This is really very annoying. to fix this run the below command in the repo folder and sourcetre will understand our feelings.</p>
+<pre><code>git update-index --assume-unchanged file.filename
+</code></pre>
+<p>For folder use this</p>
+<pre><code>git rm -r --cached path_to_your_folder/</code></pre>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
