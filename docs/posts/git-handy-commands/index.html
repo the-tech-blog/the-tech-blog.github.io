@@ -65,7 +65,7 @@ git commit -m &quot;Removed a modified file from pull request&quot; git push ori
       git-handy-commands
     </h1>
     <div class="post-meta">
-      <time>September 29, 2020</time>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Ashish Mishra
+      <time>September 29, 2020</time>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Ashish Mishra
     </div>
   </header>
   <div class="toc">
@@ -104,7 +104,14 @@ git config user.email username-git@gmail.com
 <pre><code>git update-index --assume-unchanged file.filename
 </code></pre>
 <p>For folder use this</p>
-<pre><code>git rm -r --cached path_to_your_folder/</code></pre>
+<pre><code>git rm -r --cached path_to_your_folder/
+</code></pre>
+<p>To get undo/show dir&rsquo;s/files that are set to assume-unchanged run this:</p>
+<pre><code>git update-index --no-assume-unchanged file.filename
+</code></pre>
+<p>To get a list of dir&rsquo;s/files that are assume-unchanged run this:</p>
+<pre><code>git ls-files -v|grep '^h'
+</code></pre>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
