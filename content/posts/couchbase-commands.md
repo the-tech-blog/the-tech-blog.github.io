@@ -13,3 +13,10 @@ title = "CouchBase - Commands"
 weight = 3
 
 +++
+### Scenario 1: Copy all document from One Bucket to another
+
+		INSERT INTO \`bucket-name\` (KEY _k, VALUE _v) SELECT META().id _k, _v from \`bucket-name\` _v
+
+### Scenario 2: Deleting everything from bucket
+
+		DELETE FROM \`bucket-name\`
