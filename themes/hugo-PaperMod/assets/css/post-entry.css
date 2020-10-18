@@ -36,6 +36,10 @@
     font-size: 14px;
 }
 
+.home-info .entry-content {
+    -webkit-line-clamp: 5;
+}
+
 .post-entry {
     position: relative;
     margin-bottom: var(--gap);
@@ -49,8 +53,7 @@
     transform: scale(0.96);
 }
 
-.tag-entry .entry-content,
-.tag-entry .entry-footer {
+.tag-entry .entry-cover {
     display: none;
 }
 
@@ -88,15 +91,20 @@
     font-size: 14px;
 }
 
+.entry-cover {
+    margin-bottom: var(--gap);
+    text-align: center;
+    font-size: 14px;
+    color: var(--secondary);
+}
+
 .entry-cover img {
     border-radius: var(--radius);
-    margin-bottom: var(--gap);
     pointer-events: none;
     width: 100%;
 }
 
-.social-icons a {
-    margin: 2px;
-    padding: 6px;
-    font-size: 1.4em;
+.entry-cover a {
+    color: var(--secondary);
+    box-shadow: 0 1px 0 var(--primary);
 }

@@ -7,29 +7,70 @@
 
 <title>The Tech Blog</title>
 
-<meta name="description"
-    content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
+<meta name="keywords" content="" />
+<meta name="description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
 <meta name="author" content="Theme PaperMod">
 <link rel="canonical" href="https://the-tech-blog.github.io/" />
-
-<link href="https://the-tech-blog.github.io/css/stylesheet.min.5502e320dd4ff37e3f1dbb3bfe4ed915023db51a0f3031b81eb78489ff99515b.css" integrity="sha256-VQLjIN1P834/Hbs7/k7ZFQI9tRoPMDG4HreEif&#43;ZUVs=" rel="preload stylesheet"
+<link href="https://the-tech-blog.github.io/assets/css/stylesheet.min.c91c3ed78ea855658ac993096d76c123286df5a7d191c2ed38d133cf22dc97de.css" integrity="sha256-yRw&#43;146oVWWKyZMJbXbBIyht9afRkcLtONEzzyLcl94=" rel="preload stylesheet"
     as="style">
-
 <link rel="apple-touch-icon" href="https://the-tech-blog.github.io/apple-touch-icon.png">
 <link rel="icon" href="https://the-tech-blog.github.io/favicon.ico">
 <meta name="generator" content="Hugo 0.75.1" />
-<link rel="alternate" type="application/rss+xml" href="https://the-tech-blog.github.io/index.xml" title="The Tech Blog" />
+<link rel="alternate" type="application/rss&#43;xml" href="https://the-tech-blog.github.io/index.xml">
+
+
+
+
 </head>
 
 <body class="list home" id="top">
 <script>
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    
+    if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.body.classList.add('dark');
+        }
     }
 </script>
+<noscript>
+    <style type="text/css">
+        .theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+</noscript>
 <header class="header">
     <nav class="nav">
-        <h1 class="logo"><a href="https://the-tech-blog.github.io">The Tech Blog</a></h1>
+        <p class="logo">
+            <a href="https://the-tech-blog.github.io">The Tech Blog</a>
+            <span class="theme-toggle">
+                <a id="theme-toggle">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </a>
+            </span>
+        </p>
         <ul class="menu" id="menu" onscroll="menu_on_scroll()">
             <li>
                 <a href="https://the-tech-blog.github.io/tags/">
@@ -55,40 +96,38 @@
         </ul>
     </nav>
 </header>
+
     <main class="main"> 
 
 
-<article class="first-entry">
+
+<article class="first-entry home-info">
     <header class="entry-header">
         <h2>Hi there 👋</h2>
     </header>
     <section class="entry-content">
         <p>Welcome to The Tech Blog or I say my corner of the internet.</p>
-        <p>My Blog is mostly a place to document things learned.</p>
     </section>
-    <footer class="entry-footer">
-        <div class="social-icons"><a href="https://stackoverflow.com/users/7188713/ashish-mishra" target="_blank" rel="noopener noreferrer"
-    title="Stackoverflow"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none"
-    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <footer class="entry-footer"><div class="social-icons"><a href="https://stackoverflow.com/users/7188713/ashish-mishra" target="_blank" rel="noopener noreferrer"
+        title="Stackoverflow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
     <path
         d="M2.913 16.041v6.848h17.599v-6.848M7.16 18.696h8.925M7.65 13.937l8.675 1.8M9.214 9.124l8.058 3.758M12.086 4.65l6.849 5.66M15.774 1.111l5.313 7.162" />
 </svg></a><a href="https://codepen.io/the-tech-blog" target="_blank" rel="noopener noreferrer"
-    title="Codepen"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none"
-    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        title="Codepen"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
     <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon>
     <line x1="12" y1="22" x2="12" y2="15.5"></line>
     <polyline points="22 8.5 12 15.5 2 8.5"></polyline>
     <polyline points="2 15.5 12 8.5 22 15.5"></polyline>
     <line x1="12" y1="2" x2="12" y2="8.5"></line>
 </svg></a><a href="https://github.com/the-tech-blog" target="_blank" rel="noopener noreferrer"
-    title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none"
-    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        title="Github"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
     <path
         d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
     </path>
-</svg></a>
-        </div>
-    </footer>
+</svg></a></div></footer>
 </article>
 
 <article class="post-entry">
@@ -139,7 +178,7 @@ git commit -m &#34;Removed a modified file from pull request&#34; git push origi
 </article>
 
     </main><footer class="footer">
-    <span>&copy; 2020 <a href="https://the-tech-blog.github.io">The Tech Blog</a></span>
+    <span>Copyright © 2008–2020, The Tech Blog; all rights reserved.</span>
     <span>&middot;</span>
     <span>Powered by <a href="https://boring-baba.github.io" rel="noopener noreferrer" target="_blank">Boring Baba</a>️</span>
 </footer>
@@ -149,6 +188,9 @@ git commit -m &#34;Removed a modified file from pull request&#34; git push origi
             <path d="M12 6H0l6-6z" /></svg>
     </button>
 </a>
+
+
+
 <script>
     window.onload = function () {
         if (localStorage.getItem("menu-scroll-position")) {
@@ -177,6 +219,17 @@ git commit -m &#34;Removed a modified file from pull request&#34; git push origi
     function menu_on_scroll() {
         localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
     }
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
 </script>
 
 </body>

@@ -8,7 +8,7 @@
     </h1>
     {{- if .Params.hideMeta }}{{ else }}
     <div class="post-meta">
-      <time>{{ .Date.Format "January 2, 2006" }}</time>
+      <time>{{ .Date.Format (default "January 2, 2006" .Site.Params.DateFormat) }}</time>
       {{- if $.Site.Params.ShowReadingTime -}}&nbsp;·&nbsp;
       {{- $default_txt := print .ReadingTime " " "min" }}
       {{- i18n "read_time" .ReadingTime | default  $default_txt  }}{{ end }}
@@ -26,9 +26,14 @@
     </div>
     {{- end}}
   </header>
-  {{- if .Params.cover }}
+  {{- if .Params.cover.image }}
   <figure class="entry-cover">
-    <img src="{{ .Params.cover | absURL }}" alt="cover image for {{ .Title | plainify }}">
+    {{- if (ne .Params.cover.relative true) }}
+    <img src="{{ .Params.cover.image | absURL }}" alt="{{ .Params.cover.alt | plainify }}">
+    {{- else}}
+    <img src="{{ (path.Join .RelPermalink .Params.cover.image ) | absURL }}" alt="{{ .Params.cover.alt | plainify }}">
+    {{- end}}
+    <p>{{.Params.cover.caption | markdownify }}</p>
   </figure>
   {{- end }}
   {{- if .Params.ShowToc }}
@@ -58,7 +63,7 @@
     {{- end }}
   </footer>
 
-  {{- if $.Site.Params.comments }}
+  {{- if and ($.Site.Params.comments) (ne .Params.comments false) }}
   {{- partial "comments.html" . }}
   {{- end }}
 </article>

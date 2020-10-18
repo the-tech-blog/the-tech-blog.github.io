@@ -39,32 +39,15 @@
     margin-left: auto;
 }
 
-.toc {
-    margin-bottom: 40px;
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: .5em;
+.social-icons {
+    padding: 12px 0;
 }
 
-.toc details summary {
-    cursor: zoom-in;
+.social-icons a:not(:last-of-type) {
+    margin-right: 12px;
 }
 
-.toc details[open] summary {
-    cursor: zoom-out;
-}
-
-.toc .details {
-    display: inline;
-    font-weight: 500;
-}
-
-.toc blockquote {
-    border-left: 2px solid;
-    margin: 20px;
-    padding: 10px 40px;
-}
-
-.toc li ul {
-    margin-left: var(--gap);
+.social-icons a svg {
+    height: 26px;
+    width: 26px;
 }

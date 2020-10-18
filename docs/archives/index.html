@@ -7,29 +7,69 @@
 
 <title>Archive - The Tech Blog</title>
 
-<meta name="description"
-    content="Archive - The Tech Blog">
+<meta name="keywords" content="" />
+<meta name="description" content="archives">
 <meta name="author" content="Theme PaperMod">
 <link rel="canonical" href="https://the-tech-blog.github.io/archives/" />
-
-<link href="https://the-tech-blog.github.io/css/stylesheet.min.5502e320dd4ff37e3f1dbb3bfe4ed915023db51a0f3031b81eb78489ff99515b.css" integrity="sha256-VQLjIN1P834/Hbs7/k7ZFQI9tRoPMDG4HreEif&#43;ZUVs=" rel="preload stylesheet"
+<link href="https://the-tech-blog.github.io/assets/css/stylesheet.min.c91c3ed78ea855658ac993096d76c123286df5a7d191c2ed38d133cf22dc97de.css" integrity="sha256-yRw&#43;146oVWWKyZMJbXbBIyht9afRkcLtONEzzyLcl94=" rel="preload stylesheet"
     as="style">
-
 <link rel="apple-touch-icon" href="https://the-tech-blog.github.io/apple-touch-icon.png">
 <link rel="icon" href="https://the-tech-blog.github.io/favicon.ico">
 <meta name="generator" content="Hugo 0.75.1" />
+
+
+
 
 </head>
 
 <body class="list" id="top">
 <script>
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    
+    if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.body.classList.add('dark');
+        }
     }
 </script>
+<noscript>
+    <style type="text/css">
+        .theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+</noscript>
 <header class="header">
     <nav class="nav">
-        <p class="logo"><a href="https://the-tech-blog.github.io">The Tech Blog</a></p>
+        <p class="logo">
+            <a href="https://the-tech-blog.github.io">The Tech Blog</a>
+            <span class="theme-toggle">
+                <a id="theme-toggle">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </a>
+            </span>
+        </p>
         <ul class="menu" id="menu" onscroll="menu_on_scroll()">
             <li>
                 <a href="https://the-tech-blog.github.io/tags/">
@@ -55,6 +95,7 @@
         </ul>
     </nav>
 </header>
+
     <main class="main">
 
 <header class="page-header">
@@ -99,7 +140,7 @@
   </div>
 </div>
     </main><footer class="footer">
-    <span>&copy; 2020 <a href="https://the-tech-blog.github.io">The Tech Blog</a></span>
+    <span>Copyright © 2008–2020, The Tech Blog; all rights reserved.</span>
     <span>&middot;</span>
     <span>Powered by <a href="https://boring-baba.github.io" rel="noopener noreferrer" target="_blank">Boring Baba</a>️</span>
 </footer>
@@ -109,6 +150,9 @@
             <path d="M12 6H0l6-6z" /></svg>
     </button>
 </a>
+
+
+
 <script>
     window.onload = function () {
         if (localStorage.getItem("menu-scroll-position")) {
@@ -137,6 +181,17 @@
     function menu_on_scroll() {
         localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
     }
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
 </script>
 
 </body>
