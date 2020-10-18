@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2008–2020, The Tech Blog; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 04 Oct 2020 18:30:00 +0000</lastBuildDate><atom:link href="https://the-tech-blog.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Oct 2020 18:30:00 +0000</lastBuildDate><atom:link href="https://the-tech-blog.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jackson Handy Code</title>
       <link>https://the-tech-blog.github.io/posts/jackson-handy-code/</link>
@@ -28,6 +28,15 @@
 $ git checkout pull-request-branch  Overwrite the modified file(s) with the file in another branch, let&amp;rsquo;s consider it&amp;rsquo;s master:
 git checkout origin/master -- src/main/java/HelloWorld.java  Commit and push it to the remote:
 git commit -m &amp;quot;Removed a modified file from pull request&amp;quot; git push origin pull-request-branch  Scenario 2: Update the commit user name and email in Git repo git config user.</description>
+    </item>
+    
+    <item>
+      <title>CouchBase - Commands</title>
+      <link>https://the-tech-blog.github.io/posts/couchbase-commands/</link>
+      <pubDate>Sat, 17 Oct 2020 18:30:00 +0000</pubDate>
+      
+      <guid>https://the-tech-blog.github.io/posts/couchbase-commands/</guid>
+      <description>Scenario 1: Copy all document from One Bucket to another  INSERT INTO \`bucket-name\` (KEY _k, VALUE _v) SELECT META().id _k, _v from \`bucket-name\` _v  Scenario 2: Deleting everything from bucket  DELETE FROM \`bucket-name\` </description>
     </item>
     
     <item>

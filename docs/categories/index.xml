@@ -6,6 +6,16 @@
     <description>Recent content in Categories on The Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright © 2008–2020, The Tech Blog; all rights reserved.</copyright><atom:link href="https://the-tech-blog.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2008–2020, The Tech Blog; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 17 Oct 2020 18:30:00 +0000</lastBuildDate><atom:link href="https://the-tech-blog.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>couchbase</title>
+      <link>https://the-tech-blog.github.io/categories/couchbase/</link>
+      <pubDate>Sat, 17 Oct 2020 18:30:00 +0000</pubDate>
+      
+      <guid>https://the-tech-blog.github.io/categories/couchbase/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
