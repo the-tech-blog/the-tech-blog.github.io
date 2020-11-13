@@ -5,18 +5,18 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<title>git - The Tech Blog</title>
+<title>maven - The Tech Blog</title>
 
 <meta name="keywords" content="" />
 <meta name="description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
 <meta name="author" content="Theme PaperMod">
-<link rel="canonical" href="https://the-tech-blog.github.io/tags/git/" />
+<link rel="canonical" href="https://the-tech-blog.github.io/tags/maven/" />
 <link href="https://the-tech-blog.github.io/assets/css/stylesheet.min.c91c3ed78ea855658ac993096d76c123286df5a7d191c2ed38d133cf22dc97de.css" integrity="sha256-yRw&#43;146oVWWKyZMJbXbBIyht9afRkcLtONEzzyLcl94=" rel="preload stylesheet"
     as="style">
 <link rel="apple-touch-icon" href="https://the-tech-blog.github.io/apple-touch-icon.png">
 <link rel="icon" href="https://the-tech-blog.github.io/favicon.ico">
 <meta name="generator" content="Hugo 0.75.1" />
-<link rel="alternate" type="application/rss&#43;xml" href="https://the-tech-blog.github.io/tags/git/index.xml">
+<link rel="alternate" type="application/rss&#43;xml" href="https://the-tech-blog.github.io/tags/maven/index.xml">
 
 
 
@@ -99,7 +99,7 @@
 
     <main class="main"> 
 <header class="page-header">
-  <h1>git</h1>
+  <h1>maven</h1>
 </header>
 
 
@@ -107,19 +107,27 @@
 <article class="post-entry tag-entry">
   <header class="entry-header">
     <h2>
-      Git Handy commands
+      Maven Handy Command
     </h2>
   </header>
   <section class="entry-content">
-    <p>Scenario 1: Remove a Modified File from Git pull request Switch to the branch from which you created the pull request:
-$ git checkout pull-request-branch  Overwrite the modified file(s) with the file in another branch, let’s consider it’s master:
-git checkout origin/master -- src/main/java/HelloWorld.java  Commit and push it to the remote:
-git commit -m &#34;Removed a modified file from pull request&#34; git push origin pull-request-branch  Scenario 2: Update the commit user name and email in Git repo git config user....</p>
+    <p>Scenario 1: Start the AEM in debug mode
+ java -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=127.0.0.1:8765 -XX:&#43;HeapDumpOnOutOfMemoryError -XX:MaxPermSize=256M -Xmx1024m -Dorg.apache.sling.commons.log.level=INFO -jar cq-quickstart-6.5.0.jar
+ Scenario 2: Start the Spring boot application
+ mvn clean spring-boot:run
+ Scenario 3: Start Spring boot in specific mode
+ mvn clean spring-boot:run -Dspring-boot.run.profiles=local
+ Scenario 4: Skip J-Unit test
+ -Dmaven.test.skip=true
+ Scenario 5: Start Redis Server
+ redis-server
+Scenario 6: Clear redis cache
+  redis-cli flushall...</p>
   </section>
   <footer class="entry-footer">
-    <time>September 29, 2020</time>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Ashish Mishra
+    <time>November 12, 2020</time>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Ashish Mishra
   </footer>
-  <a class="entry-link" aria-label="post link to Git Handy commands" href="https://the-tech-blog.github.io/posts/git-handy-commands/"></a>
+  <a class="entry-link" aria-label="post link to Maven Handy Command" href="https://the-tech-blog.github.io/posts/maven-handy-command/"></a>
 </article>
 
     </main><footer class="footer">

@@ -133,6 +133,31 @@
 <article class="post-entry">
   <header class="entry-header">
     <h2>
+      Maven Handy Command
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>Scenario 1: Start the AEM in debug mode
+ java -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=127.0.0.1:8765 -XX:&#43;HeapDumpOnOutOfMemoryError -XX:MaxPermSize=256M -Xmx1024m -Dorg.apache.sling.commons.log.level=INFO -jar cq-quickstart-6.5.0.jar
+ Scenario 2: Start the Spring boot application
+ mvn clean spring-boot:run
+ Scenario 3: Start Spring boot in specific mode
+ mvn clean spring-boot:run -Dspring-boot.run.profiles=local
+ Scenario 4: Skip J-Unit test
+ -Dmaven.test.skip=true
+ Scenario 5: Start Redis Server
+ redis-server
+Scenario 6: Clear redis cache
+  redis-cli flushall...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>November 12, 2020</time>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Ashish Mishra
+  </footer>
+  <a class="entry-link" aria-label="post link to Maven Handy Command" href="https://the-tech-blog.github.io/posts/maven-handy-command/"></a>
+</article>
+<article class="post-entry">
+  <header class="entry-header">
+    <h2>
       Jackson Handy Code
     </h2>
   </header>
@@ -148,7 +173,7 @@
 <article class="post-entry">
   <header class="entry-header">
     <h2>
-      git-handy-commands
+      Git Handy commands
     </h2>
   </header>
   <section class="entry-content">
@@ -160,7 +185,7 @@ git commit -m &#34;Removed a modified file from pull request&#34; git push origi
   <footer class="entry-footer">
     <time>September 29, 2020</time>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Ashish Mishra
   </footer>
-  <a class="entry-link" aria-label="post link to git-handy-commands" href="https://the-tech-blog.github.io/posts/git-handy-commands/"></a>
+  <a class="entry-link" aria-label="post link to Git Handy commands" href="https://the-tech-blog.github.io/posts/git-handy-commands/"></a>
 </article>
 <article class="post-entry">
   <header class="entry-header">
