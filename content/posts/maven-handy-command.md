@@ -6,7 +6,6 @@ author = "Ashish Mishra"
 categories = ["maven"]
 date = 2020-11-12T18:30:00Z
 description = "This page comprise of few maven commands which i have used in my projects"
-draft = true
 series = []
 tags = ["maven"]
 title = "Maven Handy Command"
