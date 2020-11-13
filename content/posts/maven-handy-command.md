@@ -10,7 +10,7 @@ draft = true
 series = []
 tags = ["maven"]
 title = "Maven Handy Command"
-weight = nil
+weight = 1
 
 +++
 Scenario 1: Start the AEM in debug mode
