@@ -19,24 +19,28 @@ Scenario 1: Start the AEM in debug mode
 
 Scenario 2: Start the Spring boot application 
 
-mvn clean spring-boot:run
+> mvn clean spring-boot:run
 
 Scenario 3: Start Spring boot in specific mode
 
-mvn clean spring-boot:run -Dspring-boot.run.profiles=local
+> mvn clean spring-boot:run -Dspring-boot.run.profiles=local
 
 Scenario 4: Skip J-Unit test
 
-\-Dmaven.test.skip=true
+> -Dmaven.test.skip=true
 
 Scenario 5: Start Redis Server
 
-redis-server
+> redis-server
+>
+> Scenario 6: Clear redis cache
 
-Scenario 6: Clear redis cache
-
-**redis-cli flushall**
+> redis-cli flushall
 
 Scenario 7: Start Spring boot in debug mode and also run a specific profile and skip j unit test compilation 
 
-mvn spring-boot:run -Dspring-boot.run.jvmArguments="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005" -Dspring-boot.run.profiles=local -Dmaven.test.skip=true
+> mvn spring-boot:run -Dspring-boot.run.jvmArguments="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005" -Dspring-boot.run.profiles=local -Dmaven.test.skip=true
+
+Scenario 8: Build and deploy AEM
+
+> mvn -PautoInstallPackage -Padobe-public clean install
