@@ -8,7 +8,7 @@ date = 2020-09-29T18:30:00Z
 description = "This Post talks about some of the git handy commands"
 series = ["Git"]
 tags = ["git", "github"]
-title = "git-handy-commands"
+title = "Git handy commands"
 weight = 2
 
 +++
