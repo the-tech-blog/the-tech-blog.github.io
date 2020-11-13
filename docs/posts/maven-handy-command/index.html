@@ -112,42 +112,41 @@
       <summary>
         <div class="details">Table of Contents</div>
       </summary>
-      <blockquote>
+      <blockquote><ul><li>
+        <a href="#scenario-1-start-the-aem-in-debug-mode">Scenario 1: Start the AEM in debug mode</a></li><li>
+        <a href="#scenario-2-start-the-spring-boot-application">Scenario 2: Start the Spring boot application</a></li><li>
+        <a href="#scenario-3-start-spring-boot-in-specific-mode">Scenario 3: Start Spring boot in specific mode</a></li><li>
+        <a href="#scenario-4-skip-j-unit-test">Scenario 4: Skip J-Unit test</a></li><li>
+        <a href="#scenario-5-start-redis-server">Scenario 5: Start Redis Server</a></li><li>
+        <a href="#scenario-6-clear-redis-cache">Scenario 6: Clear redis cache</a></li><li>
+        <a href="#scenario-7-start-spring-boot-in-debug-mode-and-also-run-a-specific-profile-and-skip-j-unit-test-compilation">Scenario 7: Start Spring boot in debug mode and also run a specific profile and skip j unit test compilation</a></li><li>
+        <a href="#scenario-8-build-and-deploy-aem">Scenario 8: Build and deploy AEM</a></li></ul>
       </blockquote>
     </details>
   </div>
-  <div class="post-content"><p>Scenario 1: Start the AEM in debug mode</p>
-<blockquote>
-<p>java -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=127.0.0.1:8765 -XX:+HeapDumpOnOutOfMemoryError -XX:MaxPermSize=256M -Xmx1024m -Dorg.apache.sling.commons.log.level=INFO -jar cq-quickstart-6.5.0.jar</p>
-</blockquote>
-<p>Scenario 2: Start the Spring boot application</p>
-<blockquote>
-<p>mvn clean spring-boot:run</p>
-</blockquote>
-<p>Scenario 3: Start Spring boot in specific mode</p>
-<blockquote>
-<p>mvn clean spring-boot:run -Dspring-boot.run.profiles=local</p>
-</blockquote>
-<p>Scenario 4: Skip J-Unit test</p>
-<blockquote>
-<p>-Dmaven.test.skip=true</p>
-</blockquote>
-<p>Scenario 5: Start Redis Server</p>
-<blockquote>
-<p>redis-server</p>
-<p>Scenario 6: Clear redis cache</p>
-</blockquote>
-<blockquote>
-<p>redis-cli flushall</p>
-</blockquote>
-<p>Scenario 7: Start Spring boot in debug mode and also run a specific profile and skip j unit test compilation</p>
-<blockquote>
-<p>mvn spring-boot:run -Dspring-boot.run.jvmArguments=&quot;-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005&quot; -Dspring-boot.run.profiles=local -Dmaven.test.skip=true</p>
-</blockquote>
-<p>Scenario 8: Build and deploy AEM</p>
-<blockquote>
-<p>mvn -PautoInstallPackage -Padobe-public clean install</p>
-</blockquote>
+  <div class="post-content"><h3 id="scenario-1-start-the-aem-in-debug-mode">Scenario 1: Start the AEM in debug mode</h3>
+<pre><code>java -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=127.0.0.1:8765 -XX:+HeapDumpOnOutOfMemoryError -XX:MaxPermSize=256M -Xmx1024m -Dorg.apache.sling.commons.log.level=INFO -jar cq-quickstart-6.5.0.jar
+</code></pre>
+<h3 id="scenario-2-start-the-spring-boot-application">Scenario 2: Start the Spring boot application</h3>
+<pre><code>mvn clean spring-boot:run
+</code></pre>
+<h3 id="scenario-3-start-spring-boot-in-specific-mode">Scenario 3: Start Spring boot in specific mode</h3>
+<pre><code>mvn clean spring-boot:run -Dspring-boot.run.profiles=local
+</code></pre>
+<h3 id="scenario-4-skip-j-unit-test">Scenario 4: Skip J-Unit test</h3>
+<pre><code>-Dmaven.test.skip=true
+</code></pre>
+<h3 id="scenario-5-start-redis-server">Scenario 5: Start Redis Server</h3>
+<pre><code>redis-server
+</code></pre>
+<h3 id="scenario-6-clear-redis-cache">Scenario 6: Clear redis cache</h3>
+<pre><code>redis-cli flushall
+</code></pre>
+<h3 id="scenario-7-start-spring-boot-in-debug-mode-and-also-run-a-specific-profile-and-skip-j-unit-test-compilation">Scenario 7: Start Spring boot in debug mode and also run a specific profile and skip j unit test compilation</h3>
+<pre><code>mvn spring-boot:run -Dspring-boot.run.jvmArguments=&quot;-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005&quot; -Dspring-boot.run.profiles=local -Dmaven.test.skip=true
+</code></pre>
+<h3 id="scenario-8-build-and-deploy-aem">Scenario 8: Build and deploy AEM</h3>
+<pre><code>mvn -PautoInstallPackage -Padobe-public clean install</code></pre>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
