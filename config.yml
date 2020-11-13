@@ -1,25 +1,25 @@
 ---
 baseURL: https://the-tech-blog.github.io
 title: The Tech Blog
-author: Boring Baba
+author: Ashish Mishra
 copyright: Copyright © 2008–2020, The Tech Blog; all rights reserved.
 publishDir: docs
-paginate: "10"
+paginate: "5"
 languageCode: en
 DefaultContentLanguage: en
 enableInlineShortcodes: true
 theme: hugo-PaperMod
 canonifyURLs: true
 params:
-  description: Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod
-  author: Theme PaperMod
+  description: This blog contains all the details which i learnt in my Software carrer.
+  author: Ashish Mishra
   ShowReadingTime: true
   contentTypeName: posts
   defaultTheme: auto
   ShowShareButtons: true
   profileMode:
     enabled: false
-    title: PaperMod
+    title: Ashish Mishra
     imageUrl: "#"
     imageTitle: my image
     buttons:
