@@ -1,9 +1,8 @@
 ---
 baseURL: https://a-blank-slate.github.io
 title: A Blank Slate
-paginate: 5
+paginate: "5"
 theme: hugo-PaperMod
-
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
@@ -13,113 +12,90 @@ enableEmoji: true
 copyright: Copyright © 2008–2021, A Blank Slate; all rights reserved.
 publishDir: docs
 DefaultContentLanguage: en
-# googleAnalytics: UA-123-45
 canonifyURLs: true
-
 minify:
-    disableXML: true
-    # minifyOutput: true
-
+  disableXML: true
 languages:
-    en:
-        languageName: "English"
-        weight: 1
-        menu:
-            main:
-                - name: Tags
-                  url: tags/
-                  weight: 05
-                - name: Archive
-                  url: archives
-                  weight: 15
-                - name: Search
-                  url: search/
-                  weight: 10
-
+  en:
+    languageName: English
+    weight: "1"
+    menu:
+      main:
+      - name: Tags
+        url: tags/
+        weight: "5"
+      - name: Archive
+        url: archives
+        weight: "15"
+      - name: Search
+        url: search/
+        weight: "10"
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON
-
+  home:
+  - HTML
+  - RSS
+  - JSON
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "This blog contains all the details which i have learnt in my Software carrer."
-    author: Ashish Mishra
-    # author: ["Me", "You"] # multiple authors
-
-    defaultTheme: auto
-    # disableThemeToggle: true
-    ShowShareButtons: true
-    ShowReadingTime: true
-    # disableSpecial1stPost: true
-    displayFullLangName: true
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: true
-    ShowToc: true
-    # comments: false
-    images: ["android-chrome-512x512.png"]
-
-    profileMode:
-        enabled: false
-        title: Ashish Mishra
-        imageUrl: "#"
-        imageTitle: my image
-        # imageWidth: 120
-        # imageHeight: 120
-        buttons:
-            - name: Archives
-              url: archives
-            - name: Tags
-              url: tags
-
-    homeInfoParams:
-        Title: "A Blank Slate Blog  &nbsp;&nbsp; \U0001F44B"
-        Content: >
-            - **This Blog** is mostly a place to document things I learned.
-
-    socialIcons:
-        - name: github
-          url: "https://github.com/a-blank-slate"
-        - name: stackoverflow
-          url: "https://stackoverflow.com/users/7188713/ashish-mishra"
-        - name: codepen
-          url: "https://codepen.io/ashishtwitting"
-        - name: RsS
-          url: "index.xml"
-
-    custom_css : ["css/custom-style.css"]
-
+  env: production
+  description: This blog contains the details which I have learnt in my Software carrier.
+  author: Ashish Mishra
+  defaultTheme: auto
+  ShowShareButtons: true
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowToc: true
+  images:
+  - android-chrome-512x512.png
+  profileMode:
+    enabled: false
+    title: Ashish Mishra
+    imageUrl: "#"
+    imageTitle: my image
+    buttons:
+    - name: Archives
+      url: archives
+    - name: Tags
+      url: tags
+  homeInfoParams:
+    Title: "A Blank Slate Blog  &nbsp;&nbsp; \U0001F44B"
+    Content: "- **This Blog** is mostly a place to document things I learned.\n"
+  socialIcons:
+  - name: github
+    url: https://github.com/a-blank-slate
+  - name: stackoverflow
+    url: https://stackoverflow.com/users/7188713/ashish-mishra
+  - name: codepen
+    url: https://codepen.io/ashishtwitting
+  - name: RsS
+    url: index.xml
+  custom_css:
+  - css/custom-style.css
 taxonomies:
-    category: categories
-    tag: tags
-    series: series
-
+  category: categories
+  tag: tags
+  series: series
 markup:
-     goldmark:
-        renderer:
-            unsafe: true
-
+  goldmark:
+    renderer:
+      unsafe: true
 privacy:
-    vimeo:
-        disabled: false
-        simple: true
-
-    twitter:
-        disabled: false
-        enableDNT: true
-        simple: true
-
-    instagram:
-        disabled: false
-        simple: true
-
-    youtube:
-        disabled: false
-        privacyEnhanced: true
-
+  vimeo:
+    disabled: false
+    simple: true
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+  instagram:
+    disabled: false
+    simple: true
+  youtube:
+    disabled: false
+    privacyEnhanced: true
 services:
-    instagram:
-        disableInlineCSS: true
-    twitter:
-        disableInlineCSS: true
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
