@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chrome on A Blank Slate</title>
+    <link>https://a-blank-slate.github.io/tags/chrome/</link>
+    <description>Recent content in chrome on A Blank Slate</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2021, A Blank Slate; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 29 Nov 2020 18:30:00 +0000</lastBuildDate><atom:link href="https://a-blank-slate.github.io/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chrome Handy Shortcuts</title>
+      <link>https://a-blank-slate.github.io/posts/chrome-handy-shortcuts/</link>
+      <pubDate>Sun, 29 Nov 2020 18:30:00 +0000</pubDate>
+      
+      <guid>https://a-blank-slate.github.io/posts/chrome-handy-shortcuts/</guid>
+      <description>Chrome Handy Shortcuts copy from console use copy(&amp;ldquo;AABB&amp;rdquo;) to copy AABB to clipboard
+Similarly if you need to copy an object from console, select the object and right click and set it as global variable
+after that object will move to a new variable temp1, then run copy(temp1) to copy it to clipboard.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>github on The Tech Blog</title>
-    <link>https://the-tech-blog.github.io/tags/github/</link>
-    <description>Recent content in github on The Tech Blog</description>
+    <title>github on A Blank Slate</title>
+    <link>https://a-blank-slate.github.io/tags/github/</link>
+    <description>Recent content in github on A Blank Slate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright © 2008–2020, The Tech Blog; all rights reserved.</copyright>
-    <lastBuildDate>Tue, 29 Sep 2020 18:30:00 +0000</lastBuildDate><atom:link href="https://the-tech-blog.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2008–2021, A Blank Slate; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 29 Sep 2020 18:30:00 +0000</lastBuildDate><atom:link href="https://a-blank-slate.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git Handy commands</title>
-      <link>https://the-tech-blog.github.io/posts/git-handy-commands/</link>
+      <link>https://a-blank-slate.github.io/posts/git-handy-commands/</link>
       <pubDate>Tue, 29 Sep 2020 18:30:00 +0000</pubDate>
       
-      <guid>https://the-tech-blog.github.io/posts/git-handy-commands/</guid>
+      <guid>https://a-blank-slate.github.io/posts/git-handy-commands/</guid>
       <description>Scenario 1: Remove a Modified File from Git pull request Switch to the branch from which you created the pull request:
 $ git checkout pull-request-branch  Overwrite the modified file(s) with the file in another branch, let&amp;rsquo;s consider it&amp;rsquo;s master:
 git checkout origin/master -- src/main/java/HelloWorld.java  Commit and push it to the remote:

@@ -1,64 +1,73 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on The Tech Blog</title>
-    <link>https://the-tech-blog.github.io/tags/</link>
-    <description>Recent content in Tags on The Tech Blog</description>
+    <title>Tags on A Blank Slate</title>
+    <link>https://a-blank-slate.github.io/tags/</link>
+    <description>Recent content in Tags on A Blank Slate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright © 2008–2020, The Tech Blog; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 12 Nov 2020 18:30:00 +0000</lastBuildDate><atom:link href="https://the-tech-blog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2008–2021, A Blank Slate; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 29 Nov 2020 18:30:00 +0000</lastBuildDate><atom:link href="https://a-blank-slate.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>chrome</title>
+      <link>https://a-blank-slate.github.io/tags/chrome/</link>
+      <pubDate>Sun, 29 Nov 2020 18:30:00 +0000</pubDate>
+      
+      <guid>https://a-blank-slate.github.io/tags/chrome/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>maven</title>
-      <link>https://the-tech-blog.github.io/tags/maven/</link>
+      <link>https://a-blank-slate.github.io/tags/maven/</link>
       <pubDate>Thu, 12 Nov 2020 18:30:00 +0000</pubDate>
       
-      <guid>https://the-tech-blog.github.io/tags/maven/</guid>
+      <guid>https://a-blank-slate.github.io/tags/maven/</guid>
       <description></description>
     </item>
     
     <item>
       <title>couchbase</title>
-      <link>https://the-tech-blog.github.io/tags/couchbase/</link>
+      <link>https://a-blank-slate.github.io/tags/couchbase/</link>
       <pubDate>Sat, 17 Oct 2020 18:30:00 +0000</pubDate>
       
-      <guid>https://the-tech-blog.github.io/tags/couchbase/</guid>
+      <guid>https://a-blank-slate.github.io/tags/couchbase/</guid>
       <description></description>
     </item>
     
     <item>
       <title>jackson</title>
-      <link>https://the-tech-blog.github.io/tags/jackson/</link>
+      <link>https://a-blank-slate.github.io/tags/jackson/</link>
       <pubDate>Sun, 04 Oct 2020 18:30:00 +0000</pubDate>
       
-      <guid>https://the-tech-blog.github.io/tags/jackson/</guid>
+      <guid>https://a-blank-slate.github.io/tags/jackson/</guid>
       <description></description>
     </item>
     
     <item>
       <title>json</title>
-      <link>https://the-tech-blog.github.io/tags/json/</link>
+      <link>https://a-blank-slate.github.io/tags/json/</link>
       <pubDate>Sun, 04 Oct 2020 18:30:00 +0000</pubDate>
       
-      <guid>https://the-tech-blog.github.io/tags/json/</guid>
+      <guid>https://a-blank-slate.github.io/tags/json/</guid>
       <description></description>
     </item>
     
     <item>
       <title>git</title>
-      <link>https://the-tech-blog.github.io/tags/git/</link>
+      <link>https://a-blank-slate.github.io/tags/git/</link>
       <pubDate>Tue, 29 Sep 2020 18:30:00 +0000</pubDate>
       
-      <guid>https://the-tech-blog.github.io/tags/git/</guid>
+      <guid>https://a-blank-slate.github.io/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github</title>
-      <link>https://the-tech-blog.github.io/tags/github/</link>
+      <link>https://a-blank-slate.github.io/tags/github/</link>
       <pubDate>Tue, 29 Sep 2020 18:30:00 +0000</pubDate>
       
-      <guid>https://the-tech-blog.github.io/tags/github/</guid>
+      <guid>https://a-blank-slate.github.io/tags/github/</guid>
       <description></description>
     </item>
     

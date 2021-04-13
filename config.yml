@@ -1,8 +1,8 @@
 ---
-baseURL: https://a-blank-slate.netlify.app
-title: The Tech Blog
+baseURL: https://a-blank-slate.github.io
+title: A Blank Slate
 author: Ashish Mishra
-copyright: Copyright © 2008–2020, The Tech Blog; all rights reserved.
+copyright: Copyright © 2008–2021, A Blank Slate; all rights reserved.
 publishDir: docs
 paginate: "5"
 languageCode: en
@@ -29,15 +29,15 @@ params:
       url: tags
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to The Tech Blog or I say my corner of the internet.
-    ContentSecondLine: My Blog is mostly a place to document things learned.
+    Content: Welcome to A Blank Slate or I say my corner of the internet.
+    ContentSecondLine: My Blog is mostly a place to document things i learned.
   socialIcons:
   - name: stackoverflow
     url: https://stackoverflow.com/users/7188713/ashish-mishra
   - name: codepen
-    url: https://codepen.io/the-tech-blog
+    url: https://codepen.io/ashishtwitting
   - name: github
-    url: https://github.com/the-tech-blog
+    url: https://github.com/a-blank-slate
 markup:
   tableOfContents:
     endLevel: "3"
