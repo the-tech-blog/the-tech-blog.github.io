@@ -1,0 +1,37 @@
+---
+label: Blog Post
+hide_body: false
+fields:
+- type: boolean
+  name: ShowToc
+  label: ShowToc
+- type: boolean
+  name: TocOpen
+  label: TocOpen
+- type: list
+  name: aliases
+  label: aliases
+- type: text
+  name: author
+  label: author
+- type: list
+  name: categories
+  label: categories
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: description
+  label: description
+- type: list
+  name: series
+  label: series
+- type: list
+  name: tags
+  label: tags
+- type: text
+  name: title
+  label: title
+- type: number
+  name: weight
+  label: weight
