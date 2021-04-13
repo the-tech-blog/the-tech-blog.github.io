@@ -6,7 +6,6 @@ author = "Ashish Mishra"
 categories = ["maven"]
 date = 2020-11-12T18:30:00Z
 description = "This page comprise of few maven commands which i have used in my projects"
-series = []
 tags = ["maven"]
 title = "Maven Handy Command"
 weight = 1
@@ -16,7 +15,7 @@ weight = 1
 
     java -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=127.0.0.1:8765 -XX:+HeapDumpOnOutOfMemoryError -XX:MaxPermSize=256M -Xmx1024m -Dorg.apache.sling.commons.log.level=INFO -jar cq-quickstart-6.5.0.jar
 
-### Scenario 2: Start the Spring boot application 
+### Scenario 2: Start the Spring boot application
 
 	mvn clean spring-boot:run
 
@@ -36,7 +35,7 @@ weight = 1
 
 	redis-cli flushall
 
-### Scenario 7: Start Spring boot in debug mode and also run a specific profile and skip j unit test compilation 
+### Scenario 7: Start Spring boot in debug mode and also run a specific profile and skip j unit test compilation
 
 	mvn spring-boot:run -Dspring-boot.run.jvmArguments="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005" -Dspring-boot.run.profiles=local -Dmaven.test.skip=true
 

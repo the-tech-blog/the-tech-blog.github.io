@@ -4,7 +4,7 @@ enableInlineShortcodes: true
 taxonomies:
   category: categories
   tag: tags
-  series: series
+  project: projects
 
 privacy:
   vimeo:

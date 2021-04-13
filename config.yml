@@ -23,13 +23,17 @@ languages:
       main:
       - name: Tags
         url: tags/
-        weight: "5"
-      - name: Archive
-        url: archives
-        weight: "15"
+        weight: "1"
       - name: Search
         url: search/
-        weight: "10"
+        weight: "2"
+      - name: Projects
+        url: projects/
+        weight: "3"
+      - name: Archive
+        url: archives
+        weight: "4"
+
 outputs:
   home:
   - HTML
@@ -59,8 +63,8 @@ params:
     - name: Tags
       url: tags
   homeInfoParams:
-    Title: "A Blank Slate Blog  &nbsp;&nbsp; \U0001F44B"
-    Content: "- **This Blog** is mostly a place to document things I learned.\n"
+    Title: "A Blank Slate Blog \U0001F44B"
+    Content: "- **This Blog contains posts on AEM, HUGO, REDIS, COUCH BASE and JAVA**"
   socialIcons:
   - name: github
     url: https://github.com/a-blank-slate
@@ -75,7 +79,7 @@ params:
 taxonomies:
   category: categories
   tag: tags
-  series: series
+  project: projects
 markup:
   goldmark:
     renderer:

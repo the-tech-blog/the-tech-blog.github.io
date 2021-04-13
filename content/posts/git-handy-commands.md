@@ -6,7 +6,6 @@ author = "Ashish Mishra"
 categories = []
 date = 2020-09-29T18:30:00Z
 description = "This Post talks about some of the git handy commands"
-series = ["Git"]
 tags = ["git", "github"]
 title = "Git Handy commands"
 weight = 2

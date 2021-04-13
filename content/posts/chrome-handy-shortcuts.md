@@ -6,7 +6,6 @@ author = "Ashish Mishra"
 categories = ["chrome"]
 date = 2020-11-29T18:30:00Z
 description = "This blog comprises of few tips and tricks used in development, in chrome app"
-series = []
 tags = ["chrome"]
 title = "Chrome Handy Shortcuts"
 weight = 2

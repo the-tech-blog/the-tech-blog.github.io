@@ -6,7 +6,6 @@ author = "Ashish Mishra"
 categories = []
 date = 2020-10-04T18:30:00Z
 description = "Code snippet which i found useful in Implementing Jackson API"
-series = []
 tags = ["json", "jackson"]
 title = "Jackson Handy Code"
 weight = 2
