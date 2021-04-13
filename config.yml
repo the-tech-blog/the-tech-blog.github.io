@@ -11,7 +11,7 @@ enableInlineShortcodes: true
 theme: hugo-PaperMod
 canonifyURLs: true
 params:
-  description: This blog contains all the details which i learnt in my Software carrer.
+  description: This blog contains all the details which i have learnt in my Software carrer.
   author: Ashish Mishra
   ShowReadingTime: true
   contentTypeName: posts
