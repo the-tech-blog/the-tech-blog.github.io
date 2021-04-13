@@ -16,8 +16,5 @@ weight = 2
 
 ### copy from console
 
-use copy("AABB") to copy AABB to clipboard
-
-Similarly if you need to copy an object from console, select the object and right click and set it as global variable
-
-after that object will move to a new variable temp1, then run copy(temp1) to copy it to clipboard.
+1. Use **copy("AABB")** to copy AABB to clipboard
+2. Similarly, if you need to copy an object from the chrome console, select the object and right-click and set it as a global variable. After that object will move to a new variable **temp1**, then run **copy(temp1)** to copy it to the clipboard.
