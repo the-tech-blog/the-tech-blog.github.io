@@ -29,7 +29,7 @@ params:
       url: tags
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to A Blank Slate or I say my corner of the internet.
+    Content: Welcome to A Blank Slate or I say my corner of the Internet.
     ContentSecondLine: My Blog is mostly a place to document things i learned.
   socialIcons:
   - name: stackoverflow
@@ -38,6 +38,7 @@ params:
     url: https://codepen.io/ashishtwitting
   - name: github
     url: https://github.com/a-blank-slate
+  custom_css : ["css/custom-style.css"]
 markup:
   tableOfContents:
     endLevel: "3"

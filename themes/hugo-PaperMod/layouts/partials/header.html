@@ -27,6 +27,9 @@
         }
     </style>
 </noscript>
+{{ range .Site.Params.custom_css -}}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+{{- end }}
 <header class="header">
     <nav class="nav">
         <p class="logo">

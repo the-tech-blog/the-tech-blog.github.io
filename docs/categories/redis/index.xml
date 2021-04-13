@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>redis on A Blank Slate</title>
+    <link>https://a-blank-slate.github.io/categories/redis/</link>
+    <description>Recent content in redis on A Blank Slate</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2021, A Blank Slate; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 12 Apr 2021 18:30:00 +0000</lastBuildDate><atom:link href="https://a-blank-slate.github.io/categories/redis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Guide to Redis </title>
+      <link>https://a-blank-slate.github.io/posts/a-guide-to-redis/</link>
+      <pubDate>Mon, 12 Apr 2021 18:30:00 +0000</pubDate>
+      
+      <guid>https://a-blank-slate.github.io/posts/a-guide-to-redis/</guid>
+      <description>Test</description>
+    </item>
+    
+  </channel>
+</rss>
