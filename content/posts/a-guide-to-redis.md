@@ -12,4 +12,4 @@ title = "A Guide to Redis "
 weight = 20
 
 +++
-Test - 2 - 3
+In Progress
