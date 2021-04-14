@@ -24,7 +24,7 @@ languages:
       - name: Tags
         url: tags/
         weight: "1"
-      - name: Search
+      - name: Search 🔍
         url: search/
         weight: "2"
       - name: Projects
