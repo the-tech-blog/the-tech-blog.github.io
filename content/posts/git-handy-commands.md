@@ -1,5 +1,5 @@
 +++
-ShowToc = true
+ShowToc = false
 TocOpen = false
 aliases = []
 author = "Ashish Mishra"
