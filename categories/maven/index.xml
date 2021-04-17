@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>maven on A Blank Slate</title>
+    <link>https://a-blank-slate.github.io/categories/maven/</link>
+    <description>Recent content in maven on A Blank Slate</description>
+    <image>
+      <url>https://a-blank-slate.github.io/android-chrome-512x512.png</url>
+      <link>https://a-blank-slate.github.io/android-chrome-512x512.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2021, A Blank Slate; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 12 Nov 2020 18:30:00 +0000</lastBuildDate><atom:link href="https://a-blank-slate.github.io/categories/maven/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maven Handy Command</title>
+      <link>https://a-blank-slate.github.io/posts/maven-handy-command/</link>
+      <pubDate>Thu, 12 Nov 2020 18:30:00 +0000</pubDate>
+      
+      <guid>https://a-blank-slate.github.io/posts/maven-handy-command/</guid>
+      <description>This page comprise of few maven commands which i have used in my projects</description>
+    </item>
+    
+  </channel>
+</rss>
