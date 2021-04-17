@@ -15,7 +15,11 @@ weight = 2
 
 By using this method we can pass a JSON Object to the method as a parameter, and the second parameter is the class reference, which needs to be mapped.
 
+{{< highlight java >}}
+
     @SneakyThrows
     public <T> T getObjectFromData(Class<T> objClass, JsonObject jsonObject) {
     return mapper.readValue(jsonObject.toString(),objClass);
     }
+
+{{< /highlight >}}    
