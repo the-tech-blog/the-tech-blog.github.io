@@ -1,7 +1,8 @@
----
-title: "Projects"
-layout = "archives"
++++
+title = "Projects"
+layout = "single"
 url = "/projects"
----
+summary = "projects"
++++
 
 {{< projects >}}
