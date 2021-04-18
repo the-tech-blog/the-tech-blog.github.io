@@ -1,8 +1,10 @@
 <ul class="projects">
-    {{ range sort .Page.Site.Data.projectsGit }}
+    {{ range sort .Page.Site.Data.projectsGit ".stars" "desc" }}
         <li class="item">
             <div class="name">
                 <h3><a href="{{ .url }}">{{ .name }}</a></h3>
+                <h4 class="stars">Stars: ★ {{ .stars }}</h4>
+                <h4 class="lastmod">Last Modified: {{ .updated_at }}</h4>
             </div>
             <div class="description">
                 <p>{{ .description }}</p>
