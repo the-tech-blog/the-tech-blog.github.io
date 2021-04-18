@@ -1,3 +1,9 @@
 1. added file /layouts/shortcodes/projcts.html
-2. Copyright
-3. custom css in static folder and referenced in the confi.yml
+2. Copyright in footer.html
+3. custom css in static folder and referenced in the confi.yml and below code in header.html
+
+{{ range .Site.Params.custom_css -}}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+{{- end }}
+4. static folder which is at top level
+5.
