@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on A Blank Slate</title>
+    <link>https://a-blank-slate.github.io/posts/</link>
+    <description>Recent content in Posts on A Blank Slate</description>
+    <image>
+      <url>https://a-blank-slate.github.io/android-chrome-512x512.png</url>
+      <link>https://a-blank-slate.github.io/android-chrome-512x512.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2021, A Blank Slate; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 29 Nov 2020 18:30:00 +0000</lastBuildDate><atom:link href="https://a-blank-slate.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maven Handy Command</title>
+      <link>https://a-blank-slate.github.io/posts/maven-handy-command/</link>
+      <pubDate>Thu, 12 Nov 2020 18:30:00 +0000</pubDate>
+      
+      <guid>https://a-blank-slate.github.io/posts/maven-handy-command/</guid>
+      <description>This page comprise of few maven commands which i have used in my projects</description>
+    </item>
+    
+    <item>
+      <title>Chrome Handy Shortcuts</title>
+      <link>https://a-blank-slate.github.io/posts/chrome-handy-shortcuts/</link>
+      <pubDate>Sun, 29 Nov 2020 18:30:00 +0000</pubDate>
+      
+      <guid>https://a-blank-slate.github.io/posts/chrome-handy-shortcuts/</guid>
+      <description>This blog comprises of few tips and tricks used in development, in chrome app</description>
+    </item>
+    
+    <item>
+      <title>Jackson Handy Code</title>
+      <link>https://a-blank-slate.github.io/posts/jackson-handy-code/</link>
+      <pubDate>Sun, 04 Oct 2020 18:30:00 +0000</pubDate>
+      
+      <guid>https://a-blank-slate.github.io/posts/jackson-handy-code/</guid>
+      <description>Code snippet which i found useful in Implementing Jackson API</description>
+    </item>
+    
+    <item>
+      <title>Git Handy commands</title>
+      <link>https://a-blank-slate.github.io/posts/git-handy-commands/</link>
+      <pubDate>Tue, 29 Sep 2020 18:30:00 +0000</pubDate>
+      
+      <guid>https://a-blank-slate.github.io/posts/git-handy-commands/</guid>
+      <description>This Post talks about some of the git handy commands</description>
+    </item>
+    
+    <item>
+      <title>CouchBase - Commands</title>
+      <link>https://a-blank-slate.github.io/posts/couchbase-commands/</link>
+      <pubDate>Sat, 17 Oct 2020 18:30:00 +0000</pubDate>
+      
+      <guid>https://a-blank-slate.github.io/posts/couchbase-commands/</guid>
+      <description>This post includes useful couch base commands, such as delete, insert, copy and retrieve command</description>
+    </item>
+    
+  </channel>
+</rss>

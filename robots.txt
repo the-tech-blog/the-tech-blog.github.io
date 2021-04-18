@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://a-blank-slate.github.io/sitemap.xml
