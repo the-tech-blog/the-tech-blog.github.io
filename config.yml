@@ -79,7 +79,6 @@ params:
 taxonomies:
   category: categories
   tag: tags
-  project: projects
 markup:
   goldmark:
     renderer:
