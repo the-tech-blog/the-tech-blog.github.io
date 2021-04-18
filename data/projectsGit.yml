@@ -1,30 +1,35 @@
-- description: Bot which tweets mars image
+- description: This is a Bot that is hosted on Heroku and Fetches latest Mars Image using NASA API and then tweets the image.
   github_uri: a-blank-slate/mars-image-tweeting-bot
   name: Mars Image Bot
   stars: 0
   updated_at: '2021-03-31T17:59:49Z'
   url: https://github.com/a-blank-slate/mars-image-tweeting-bot
-- description: React phone store
+  homepage: https://twitter.com/ImageMars
+- description: This is a create react project built by following Youtube Tutorial and it is Hosted on Netlify.
   github_uri: a-blank-slate/react-phone-store
   name: react phone store
   stars:  0
   updated_at: '2021-03-31T17:59:49Z'
   url: https://github.com/a-blank-slate/react-phone-store
-- description: react beach resort project
+  homepage: https://mobile-store-react-a-blank-slate.netlify.app
+- description: This is a create react project built by following Youtube Tutorial and it is Hosted on Netlify.
   github_uri: a-blank-slate/react-beach-resort
   name: react beach resort project
   stars:  0
   updated_at: '2021-03-31T17:59:49Z'
   url: https://github.com/a-blank-slate/react-beach-resort
-- description: Spring Boot project hosted on Heroku
+  homepage: https://beach-resort-a-blank-slate.netlify.app
+- description: This is a Simple Spring boot Project Hosted on Heroku. It has one public Endpoint, which returns the current timestamp.
   github_uri: a-blank-slate/blank-slate-springboot
   name: Spring Boot project hosted on Heroku
   stars:  0
   updated_at: '2021-03-31T17:59:49Z'
   url: https://github.com/a-blank-slate/blank-slate-springboot
-- description: Basic TODO built with react
+  homepage: https://a-blank-slate.herokuapp.com
+- description: This is a Simple TODO App, built on react. Todo Data is saved in a browser cookie.
   github_uri: a-blank-slate/basic-react-todo
   name: Basic TODO built with react
   stars:  0
   updated_at: '2021-03-31T17:59:49Z'
   url: https://github.com/a-blank-slate/basic-react-todo
+  homepage: https://react-todo-a-blank-slate.netlify.app

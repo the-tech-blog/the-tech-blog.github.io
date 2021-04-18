@@ -47,6 +47,7 @@ if __name__ == "__main__":
         projects[i]["description"] = data["description"]
         projects[i]["stars"] = data["stargazers_count"]
         projects[i]["updated_at"] = data["updated_at"]
+        projects[i]["homepage"] = data["homepage"]
 
     with open(sys.argv[1], "w") as f:
         yaml.dump(projects, f)
