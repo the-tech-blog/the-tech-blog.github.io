@@ -18,7 +18,11 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.81.0'
-          # extended: true
+          
+      - name: Remove File
+        uses: JesseTG/rm@v1.0.0
+        with:
+          path: /projects
 
       - name: Build
         run: hugo --minify
@@ -28,4 +32,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: ./docs
+          destination_dir: ./docs
