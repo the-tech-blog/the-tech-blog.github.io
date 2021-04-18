@@ -19,9 +19,9 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         sys.exit("provide path to projects.yml")
 
-    api_token = getenv("TOKEN", "")
+    api_token = getenv("GITHUB_TOKEN", "")
     if not api_token:
-        sys.exit("TOKEN is missing")
+        sys.exit("GITHUB_TOKEN is missing")
 
     # Source: https://stackoverflow.com/a/1774043
     with open(sys.argv[1], "r") as stream:
