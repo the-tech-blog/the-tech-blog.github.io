@@ -1,6 +1,7 @@
 ---
 title: "Projects"
-type: "page"
+layout = "archives"
+url = "/projects"
 ---
 
 {{< projects >}}
