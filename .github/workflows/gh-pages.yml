@@ -17,12 +17,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.81.0'
-          
-      - name: Remove File
-        uses: JesseTG/rm@v1.0.0
-        with:
-          path: /projects
+          hugo-version: '0.82.0'
 
       - name: Build
         run: hugo --minify
