@@ -7,7 +7,6 @@ sections:
 - type: document
   path: data/projectsGit.yml
   label: Git Projects
-  match: "**/*"
 - type: document
   path: config.yml
   label: Config

@@ -39,11 +39,11 @@ Commit and push it to the remote:
 
 I guess, This is the issue which troubled me most in git. So, the issue is i have a file in my code base which i dont want to commit as this is specific to my local. But still sourcetree show this file to me, everytime i go for making a commit. This is really very annoying. to fix this run the below command in the repo folder and sourcetre will understand our feelings.
 
-	git update-index --assume-unchanged file.filename
+    git update-index --assume-unchanged file.filename
 
 For folder use this
 
-	git rm -r --cached path_to_your_folder/
+    git rm -r --cached path_to_your_folder/
 
 To get undo/show dir's/files that are set to assume-unchanged run this:
 
@@ -52,3 +52,7 @@ To get undo/show dir's/files that are set to assume-unchanged run this:
 To get a list of dir's/files that are assume-unchanged run this:
 
     git ls-files -v|grep '^h'
+    
+ To delete all local checked out branches
+ 	
+	git branch -D `git branch`
